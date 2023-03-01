@@ -1,2 +1,4 @@
 # backtest
-Package to backtest multi-asset portfolios
+Module to backtest multi-asset portfolios
+
+See example in **run_backtest** notebook

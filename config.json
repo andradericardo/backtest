@@ -1,0 +1,53 @@
+{
+    "data": {
+        "path": "data/assets",
+        "first_date": "2010-04-05",
+        "last_date": "2021-01-29"
+    },
+    "risk_free_rate": {
+        "first_date": "2010-04-05",
+        "last_date": "2021-01-29",
+        "calendar": "B3",
+        "replace": true
+    },
+    "benchmark": {
+        "first_date": "2010-04-05",
+        "last_date": "2021-01-29",
+        "calendar": "B3",
+        "replace": true,
+        "name": "ibovespa"
+    },
+    "fund": {
+        "first_date": "2010-04-05",
+        "last_date": "2021-01-29",
+        "calendar": "B3",
+        "replace": true,
+        "name": "amago_master",
+        "cnpj": "29.562.526/0001-47"
+    },
+    "default": {
+        "end": "2021-01-31",
+        "volume_floor": 50000000,
+        "start_cash": 1e7,
+        "number_long": 15,
+        "number_short": 5,
+        "commission": 0.001,
+        "fund_fees": 0.0016,
+        "pct_cdi": 0.95
+    },
+    "simulations": [
+        {
+            "name": "FULL_backtest_85long_5short",
+            "start": "2011-04-05",
+            "target_long": 0.85,
+            "target_short": 0.05
+
+        },
+        {
+            "name": "FULL_backtest_125long_25short",
+            "start": "2011-04-05",
+            "target_long": 1.25,
+            "target_short": 0.25
+        }
+    ]
+}
